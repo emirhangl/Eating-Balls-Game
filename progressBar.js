@@ -47,7 +47,7 @@ function move() {
         function frame() {
             if (width >= 100) {
                 if (counter >= 0) {
-                    window.alert("FA!!! YOU COULD NOT FINISHED WITHIN THE GIVEN TIME!");
+                    window.alert("FAILURE!!! YOU COULD NOT FINISHED WITHIN THE GIVEN TIME!");
                     location.reload();
                 }
                 clearInterval(id);
